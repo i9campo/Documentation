@@ -83,7 +83,58 @@ let objeto = await api.get('/area/getbypropriedade', {params: {IDPropriedade: va
 ```sh
 let objeto = await api.get('/area/getbypropriedadesafra', {params: {IDPropriedade: variável declarada, IDSafra: variável declarada }});
 ```
+#### GET AREA SERVICO. 
+>Retorna todos os registros da tabela área serviço. 
+```sh
+let objeto = await api.get('/areaservico/');
+```
+>Retorna um objeto área serviço. 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+```sh
+let objeto = await api.get('/areaservico', {params: {objID: variável declarada }});
+```
+>Retorna um objeto mais detalhado da área serviço. 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+```sh
+let objeto = await api.get('/areaservico/getfulldesc', {params: {objID: variável declarada }});
+```
+>Retorna uma lista da área serviço a partir da objID da área e o objID da safra. 
+```sh
+let objeto = await api.get('/areaservico/getbyareaservico', {params: {IDArea: variável declarada, IDSafra: Variável declarada }});
+```
+>Retorna uma lista da área serviço a partir do objID da propriedade e o objID da safra. 
+```sh
+let objeto = await api.get('/areaservico/getbypropriedadesafra', {params: {IDPropriedade: variável declarada, IDSafra: variável declarada }});
+```
 
-
-
-
+#### GET CICLO DE PRODUÇÃO. 
+>Retorna todos os registros da tabela ciclo de produção. 
+```sh
+let objeto = await api.get('/cicloproducao/');
+```
+>Retorna um objeto ciclo producao. 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+```sh
+let objeto = await api.get('/cicloproducao', {params: {objID: variável declarada }});
+```
+>Retorna um objeto mais detalhado da área serviço. 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+```sh
+let objeto = await api.get('/areaservico/getfulldesc', {params: {objID: variável declarada }});
+```
+>Retorna uma lista de ciclo de produção a partir do objID da área servico é o tipo. 
+> **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
+> **IMPORTANTE:**
+- TIPO = "CI" ('CICLO INTERMEDIARIO'). 
+- TIPO = "CP" ('CICLO DE PRODUÇÃO'). 
+```sh
+let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {IDAreaServico: variável declarada, Type: "CP"}});
+```
+>Retorna uma objeto ciclo de produção a partir do objID e o tipo. 
+> **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
+> **IMPORTANTE:**
+- TIPO = "CI" ('CICLO INTERMEDIARIO'). 
+- TIPO = "CP" ('CICLO DE PRODUÇÃO'). 
+```sh
+let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID: variável declarada, Type: "CP"}});
+```
