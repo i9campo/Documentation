@@ -4,9 +4,6 @@ import { Badge, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle
 import PropTypes from 'prop-types';
 
 import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
-import logo from '../../imagens/Logo/Geraldinho.png'; 
-import sygnet from '../../imagens/Logo/logo.png'
-import croqui from '../../imagens/Eventos/croqui.png'
 
 const propTypes = {
   children: PropTypes.node,
@@ -39,34 +36,6 @@ class DefaultHeader extends Component {
     return (
 
       <React.Fragment >
-        <div className="animated fadeIn">
-          <Modal size="lg" isOpen={this.state.modal}  className={'modal-sm modal-primary ' + this.props.className}>
-            <ModalHeader className="center"><center><h3>Contatos</h3></center></ModalHeader>
-            <ModalBody>
-              <a className="btn btn-outline-success btn_contato" href="https://api.whatsapp.com/send?phone=5561996730204">
-                <i style={{ float: "left" }} className="fa fa-whatsapp fa-2x"></i>
-                Geraldinho Gonçalves
-              </a>
-              <br/>
-              <br/>
-              <center><h2>Venha fazer parte desse sucesso você também!!!</h2></center> 
-              <br/>
-            </ModalBody>
-            <ModalFooter>
-              <a className="btn btn-outline-primary btn_voltar" onClick={this.toggle}>Voltar</a>
-            </ModalFooter>
-          </Modal>
-
-          <Modal size="md" isOpen={this.state.modalCroqui}  className={'modal-sm modal-primary ' + this.props.className}>
-            <ModalBody>
-              <img src={croqui} width="100%" height="100%" />
-            </ModalBody>
-            <ModalFooter>
-              <a className="btn btn-outline-primary btn_voltar" onClick={this.toggleCroqui}>Voltar</a>
-            </ModalFooter>
-          </Modal>
-        </div>
-
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
         {/* <AppNavbarBrand full={{ src: logo, width: 89, height: 45, alt: 'Geraldinho Eventos' }} minimized={{ src: sygnet, width: 30, height: 30, alt: 'Fagama Art' }} /> */}
         <AppNavbarBrand />

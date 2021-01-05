@@ -1,39 +1,30 @@
 export default {
   items: [
     {
-      name: 'Validate InpuT',
-      url: '/nav/InpuT', 
+      name: 'Principal',
+      url: '/dashboard', 
       icon: 'icon-address-card-o'
     },{
-      name: 'Validate InputRegistro',
-      url: '/nav/InputRegistro', 
+      name: 'reg_validate',
+      url: '/reg_validate/itens', 
       icon: 'icon-address-card-o'
-    },{
-      name: 'Validate InputContato', 
-      url: '/nav/InputContato',
-      icon: 'icon-address-card-o' 
-    }, 
-
+    }
     // {
-    //   name: 'Icons',
-    //   url: '/icons',
-    //   icon: 'icon-star',
+    //   name: 'Reg_Validate',
+    //   url: '/reg_validate',
+    //   icon: 'icon-address-card-o',
     //   class:'title',
     //   children: [
     //     {
-    //       name: 'Font Awesome',
-    //       url: '/icons/font-awesome',
-    //       icon: 'icon-star',
-    //       badge: {
-    //         variant: 'secondary',
-    //         text: '4.7',
-    //       },
+    //       name: 'Componentes',
+    //       url: '/reg_validate/itens',
+    //       icon: 'icon-address-card-o',
     //     },
-    //     {
-    //       name: 'Simple Line Icons',
-    //       url: '/icons/simple-line-icons',
-    //       icon: 'icon-star',
-    //     },
+    //     // {
+    //     //   name: 'Simple Line Icons',
+    //     //   url: '/icons/simple-line-icons',
+    //     //   icon: 'icon-star',
+    //     // },
     //   ],
     // },
   ],
