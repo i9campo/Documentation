@@ -31,7 +31,7 @@ class NavItens extends Component {
             <p><b>_updateValue  : </b> Como parametro ele deve receber dois valores o nome do campo e o valor do campo informado pelo usuário. </p>
             <p><b>_formValidate : </b> Este método será utilizado para definir o form do component de validação, </p> 
             <p> como padrão ele deve receber um elemento do tipo boolean, </p>
-            <p> caso o elemento seja verdadeiro, então significa que todos os registros obrigatórios estão preenchidos. </p>
+            <p> caso o elemento seja verdadeiro, então significa que todos os registros obrigatórios estão preenchidos corretamente. </p>
             <hr/>
             <p><b>Métodos utilizados no component 'Input'</b></p>
             <table border="1">
