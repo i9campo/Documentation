@@ -151,6 +151,20 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {IDAre
 - TIPO = "CP" ('CICLO DE PRODUÇÃO'). 
 ```sh
 let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID: variável declarada, Type: "CP"}});
+```  
+
+#### GET PERMISSION SINC. 
+>Retorna um valor boolean, caso o usuário não tenha permissão o valor retorna verdadeiro. 
+**OBS:** Essa requisição ela não é assincrona por tanto não será necessário o uso do await, mas sim do **then**.
+```sh
+    api.get("/roles/checkpermission", {params: {role: variável}})
+    .then(res => { 
+      if (res.data.length > 0 && res.data[0].Checked === true){
+        // Condição. 
+      }else{
+        // Condição.
+      }
+    })
 ```
 
 
