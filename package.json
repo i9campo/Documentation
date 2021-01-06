@@ -12,6 +12,7 @@
         "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
     },
     "dependencies": {
+        "@coreui/coreui": "^3.4.0",
         "@coreui/react": "^3.4.3",
         "axios": "^0.19.0",
         "bootstrap": "^4.3.1",
