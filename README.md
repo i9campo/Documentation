@@ -173,12 +173,12 @@ Então segue a lista com os registros de permissões existente no banco de dados
 
 ##### PERMISSION CULTURA.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_cult  | Botão delete cultura |
-| Edit_cult | Botão Editar cultura |
-| Novo_cult | Botão Nova cultura |
-| View_cult | Visualização da pagina cultura |
+| Params | Elemento a ser validado 
+| ------ | ------ 
+| Del_cult  | Botão delete cultura 
+| Edit_cult | Botão Editar cultura 
+| Novo_cult | Botão Nova cultura 
+| View_cult | Visualização da pagina cultura 
 
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 ___
