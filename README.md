@@ -175,7 +175,6 @@ Então segue a lista com os registros de permissões existente no banco de dados
 ___
 | Params | Elemento a ser validado |
 | ------ | ------ |
-
 | Del_cult  | Botão delete cultura |
 | Edit_cult | Botão Editar cultura |
 | Novo_cult | Botão Nova cultura |
