@@ -19,8 +19,9 @@
 ##### Publicando o projeto WEBAPI no IIS.
 - Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
 - Após esse processo só publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
-  
-# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA API ("GET").
+
+# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA API ("GET").  
+
 #### GET ADUBO
 >Retorna todos os registros de adubo. 
 ```sh
@@ -30,7 +31,8 @@ let objeto = await api.get('/adubo/');
 >**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 ```sh
 let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
-```
+```  
+
 #### GET AMOSTRA FOLIAR. 
 >Retorna todos os registros da amostra foliar. 
 ```sh
@@ -40,7 +42,8 @@ let objeto = await api.get('/amostrafoliar/');
 >**OBS:** Necessário passar um objID como parametro para obter o objeto amaostra foliar. 
 ```sh
 let objeto = await api.get('/amostrafoliar', {params: {objID: variável declarada }});
-```
+```  
+
 #### GET ANALISE SOLO. 
 >Retorna todos os registros. 
 ```sh
@@ -73,7 +76,8 @@ let objeto = await api.get('/analisesolo/getanalisepontobyarea', {params: {IDAre
 >Retorna a média da análise solo a partir do objID do **GRID** e **Profundidade**.
 ```sh
 let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedade: variável declarada }});
-```
+```  
+
 #### GET AREA. 
 >Retorna todos os registros da tabela área. 
 ```sh
@@ -91,7 +95,8 @@ let objeto = await api.get('/area/getbypropriedade', {params: {IDPropriedade: va
 >Retorna todas as áreas da propriedade que possui algum serviço na safra
 ```sh
 let objeto = await api.get('/area/getbypropriedadesafra', {params: {IDPropriedade: variável declarada, IDSafra: variável declarada }});
-```
+```  
+
 #### GET AREA SERVICO. 
 >Retorna todos os registros da tabela área serviço. 
 ```sh
