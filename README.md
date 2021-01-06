@@ -157,7 +157,7 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 >Retorna um valor boolean, caso o usuário não tenha permissão o valor retorna verdadeiro. 
 **OBS:** Essa requisição ela não é assincrona por tanto não será necessário o uso do await, mas sim do **then**.
 ```sh
-    api.get("/roles/checkpermission", {params: {role: variável}})
+    api.get("/roles/checkpermission", {params: {role: "View_cult_bt"}})
     .then(res => { 
       if (res.data.length > 0 && res.data[0].Checked === true){
         // Condição. 
@@ -166,5 +166,195 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
       }
     })
 ```
+##### GET PERMISSION PARAMS TABLE.   
+
+> Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
+Então segue a lista com os registros de permissões existente no banco de dados.   
+
+##### PERMISSION CULTURA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+
+| Del_cult  | Botão delete cultura |
+| Edit_cult | Botão Editar cultura |
+| Novo_cult | Botão Nova cultura |
+| View_cult | Visualização da pagina cultura |
+
+##### PERMISSION ESTÁGIO FERNOLÔGICO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_ef  | Botão delete estágio fernolôgico |
+| Edit_ef | Botão Editar estágio fernolôgico  |
+| Novo_ef | Botão Nova estágio fernolôgico  |
+| View_ef | Visualização da página estágio fernolôgico  |
+
+##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_exn  | Botão delete exportação de nutrientes |
+| Edit_exn | Botão Editar exportação de nutrientes  |
+| Novo_exn | Botão Nova exportação de nutrientes  |
+| View_exn | Visualização da página exportação de nutrientes  |
+##### PERMISSION FAIXA DE TEORES DO SOLO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_fts  | Botão delete faixa de teores do solo |
+| Edit_fts | Botão Editar faixa de teores do solo  |
+| Novo_fts | Botão Nova faixa de teores do solo  |
+| View_fts | Visualização da página faixa de teores do solo |
+##### PERMISSION FAIXA DE TEORES FOLIARES.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_ftf  | Botão delete faixa de teores foliar |
+| Edit_ftf | Botão Editar faixa de teores foliar  |
+| Novo_ftf | Botão Nova faixa de teores foliar  |
+| View_ftf | Visualização da página faixa de teores foliar |
+##### PERMISSION PADRÃO DE FOLIARES.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_pdf  | Botão delete padrão de foliares |
+| Edit_pdf | Botão Editar padrão de foliares  |
+| Novo_pdf | Botão Nova padrão de foliares  |
+| View_pdf | Visualização da página padrão de foliares |
+##### PERMISSION PADRÃO DA PLANTA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_pp  | Botão delete padrão da planta |
+| Edit_pp | Botão Editar padrão da planta  |
+| Novo_pp | Botão Nova padrão da planta  |
+| View_pp | Visualização da página padrão da planta |
+
+##### PERMISSION RESTEVA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_rst  | Botão delete resteva |
+| Edit_rst | Botão Editar resteva  |
+| Novo_rst | Botão Nova resteva  |
+| View_rst | Visualização da página resteva |
+
+##### PERMISSION VARIEDADE DE CULTURA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_vc  | Botão delete variedade de cultura |
+| Edit_vc | Botão Editar variedade de cultura  |
+| Novo_vc | Botão Nova variedade de cultura  |
+| View_vc | Visualização da página variedade de cultura |
+##### PERMISSION ADUBO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_ad  | Botão delete adubo |
+| Edit_ad | Botão Editar adubo  |
+| Novo_ad | Botão Novo adubo  |
+| View_ad | Visualização da página adubo |
+##### PERMISSION CLIENTE.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_cl  | Botão delete cliente |
+| Edit_ad | Botão Editar cliente  |
+| Novo_ad | Botão Novo cliente  |
+| View_ad | Visualização da página cliente |
+##### PERMISSION FORNECEDOR.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_forn  | Botão delete fornecedor |
+| Edit_forn | Botão Editar fornecedor  |
+| Novo_forn | Botão Novo fornecedor  |
+| View_forn | Visualização da página fornecedor |
+##### PERMISSION LABORATÓRIO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_lb  | Botão delete Laboratório |
+| Edit_lb | Botão Editar Laboratório  |
+| Novo_lb | Botão Novo Laboratório  |
+| View_lb | Visualização da página Laboratório |
+##### PERMISSION PRODUTO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_prod  | Botão delete produto |
+| Edit_prod | Botão Editar produto  |
+| Novo_prod | Botão Novo produto  |
+| View_prod | Visualização da página produto |
+
+##### PERMISSION PROPRIEDADE.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_prop  | Botão delete propriedade |
+| Edit_prop | Botão Editar propriedade |
+| Novo_prop | Botão Novo propriedade  |
+| View_prop | Visualização da página propriedade |
+##### PERMISSION SAFRA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_sf  | Botão delete safra |
+| Edit_sf | Botão Editar safra |
+| Novo_sf | Botão Novo safra  |
+| View_sf | Visualização da página safra |
+
+##### PERMISSION TIPO ÁREA DE PLANTIO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_tap  | Botão delete tipo área de plantio |
+| Edit_tap | Botão Editar tipo área de plantio |
+| Novo_tap | Botão Novo tipo área de plantio  |
+| View_tap | Visualização da página tipo área de plantio |
+
+##### PERMISSION TIPO AMOSTRA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_ta  | Botão delete tipo amostra |
+| Edit_ta | Botão Editar tipo amostra |
+| Novo_ta | Botão Novo tipo amostra  |
+| View_ta | Visualização da página tipo amostra |
+##### PERMISSION TIPO DE SOLO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_ts  | Botão delete tipo de solo |
+| Edit_ts | Botão Editar tipo de solo |
+| Novo_ts | Botão Novo  tipo de solo |
+| View_ts | Visualização da página  tipo de solo |
+##### PERMISSION UNIDADE DE LABORATÓRIO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_unl  | Botão delete unidade de laboratório |
+| Edit_unl | Botão Editar unidade de laboratório |
+| Novo_unl | Botão Novo unidade de laboratório |
+| View_unl | Visualização da página unidade de laboratório |
+##### PERMISSION UNIDADE DE MEDIDA.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Del_unm  | Botão delete unidade de medida |
+| Edit_unm | Botão Editar unidade de medida |
+| Novo_unm | Botão Novo unidade de medida|
+| View_unm | Visualização da página unidade de medida |
+
+##### PERMISSION USUÁRIO.
+___
+| Params | Elemento a ser validado |
+| ------ | ------ |
+| Administrador  | Permissão para adm     |
+| Usuário        | Permissão para usuário |
+| View_cult_bt   | Botão geral de cultura |
+|View_cad_bt     | Botão geral de cadastro|
 
 
