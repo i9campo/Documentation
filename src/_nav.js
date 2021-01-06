@@ -1,32 +1,14 @@
 export default {
   items: [
     {
-      name: 'Principal',
-      url: '/dashboard', 
-      icon: 'icon-address-card-o'
-    },{
-      name: 'reg_validate',
-      url: '/reg_validate/itens', 
-      icon: 'icon-address-card-o'
+      title: true,
+      name: 'Simulados',
+      icon: 'icon-folder',             
+      wrapper: {            // optional wrapper object
+        element: '',        // required valid HTML5 element tag
+        attributes: {}      // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
+      },
+      class: '',            // optional class names space delimited list for title item ex: "text-center"
     }
-    // {
-    //   name: 'Reg_Validate',
-    //   url: '/reg_validate',
-    //   icon: 'icon-address-card-o',
-    //   class:'title',
-    //   children: [
-    //     {
-    //       name: 'Componentes',
-    //       url: '/reg_validate/itens',
-    //       icon: 'icon-address-card-o',
-    //     },
-    //     // {
-    //     //   name: 'Simple Line Icons',
-    //     //   url: '/icons/simple-line-icons',
-    //     //   icon: 'icon-star',
-    //     // },
-    //   ],
-    // },
   ],
-
 };

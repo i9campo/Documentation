@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   children: PropTypes.node,
@@ -15,8 +16,9 @@ class DefaultFooter extends Component {
 
     return (
       <React.Fragment>
-        <span><a href="http://validatereg.netilify.com/">ValidateReg</a> &copy; 2020.</span>
-        {/* <span className="ml-auto">Powered by <a href="https://coreui.io/react">CoreUI for React</a></span> */}
+          <div className="container text-center text-md-left">
+
+          </div>
       </React.Fragment>
     );
   }
