@@ -1,17 +1,26 @@
-# SIGMA WEBAPI CONFIG CONECTION. 
-Link para conexão com API LOCAL(https://sigma.sigma.local).
-- Comando utilizado no visual code na aba **SCRIPTS**("start-local").
-- Comando de linha via CMD ("npm run start-local").
-
-Link para conexão com API Remotamente ("https://sigma.siccerrado.com.br"). 
-- Comando utilizado no visual code na aba **SCRIPTS**(**"start-ext"**).
-- Comando de linha via CMD("npm run start-ext").
-
-Link para conexão com API Executada pelo Visual studio ("https://localhost:40080").
-- Comando utilizado no visual code na aba **SCRIPTS**(**"start-api"**).
-- Comando de linha via CMD("npm run start-api").
-
-# WEBAPI CONFIG REACT JS GET'S (ASYNC).
+# CONFIG CONNECTION SIGMA.WEBAPI2 C#.
+##### Link de conexão com **API LOCAL** ( https://sigma.sigma.local ).
+- Caso a conexão do front-end **"React JS"** não funcione com a **API**, basta acessar o link da **API LOCAL** e ative o certificado SSL.
+- Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-local"**.
+- Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-local"**).
+##### Link de conexão com **API REMOTA** ( https://sigma.siccerrado.com.br ).
+- Caso a conexão do front-end **"React JS"** não funcione com a **API**, basta acessar o link da **API REMOTA** e ative o certificado SSL.
+- Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-ext"**.
+- Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-ext"**).
+##### Para debugar a API
+- Necessário executar o projeto WEBAPI pelo visual studio. 
+- Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-api"**.
+- Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-api"**).
+# CONFIG PUBLISH PROJECT.
+##### Publicando projeto front-end **"React JS"** no IIS.
+- Primeiro você tem que executar o comando **"npm run build-ext"** ou clicar na aba **"SCRIPTS"** logo em seguida em **"build-ext"**. 
+- Após o primeiro processo ser concluído, o projeto automaticamente vai criar uma pasta chamada **BUILD**.
+- Abra a pasta **BUILD** e copie todos os arquivos para dentro do servidor na pasta (F - IIS / SigmaDev). Prontinho processo feito com sucesso.
+##### Publicando o projeto WEBAPI no IIS.
+- Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
+- Após esse processo só publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
+  
+# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA API ("GET").
 #### GET ADUBO
 >Retorna todos os registros de adubo. 
 ```sh
@@ -138,3 +147,5 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {IDAre
 ```sh
 let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID: variável declarada, Type: "CP"}});
 ```
+
+
