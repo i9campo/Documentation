@@ -177,7 +177,7 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 > Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
 Então segue a lista com os registros de permissões existente no banco de dados.   
 
-#### PERMISSION ESTÁGIO FERNOLÔGICO.
+#### PERMISSION CULTURA.
 
 |   Params    | Elemento a ser validado          |
 |  ---------  | -------------------------------  |
@@ -187,31 +187,35 @@ Então segue a lista com os registros de permissões existente no banco de dados
 |  View_cult  | Visualização da pagina cultura   |
 
 
-##### PERMISSION ESTÁGIO FERNOLÔGICO.
+#### PERMISSION ESTÁGIO FERNOLÔGICO.
+
 | Params    | Elemento a ser validado                     |
 | --------  | ------------------------------------------- |
 | Del_ef    | Botão delete estágio fernolôgico            |
 | Edit_ef   | Botão Editar estágio fernolôgico            | 
 | Novo_ef   | Botão Nova estágio fernolôgico              |
 | View_ef   | Visualização da página estágio fernolôgico  |
-___
-##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
+
+#### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
+
 | Params    | Elemento a ser validado                          |
 | --------- | ------------------------------------------------ |
 | Del_exn   | Botão delete exportação de nutrientes            |
 | Edit_exn  | Botão Editar exportação de nutrientes            |
 | Novo_exn  | Botão Nova exportação de nutrientes              |
 | View_exn  | Visualização da página exportação de nutrientes  |
-___
-##### PERMISSION FAIXA DE TEORES DO SOLO.
+
+#### PERMISSION FAIXA DE TEORES DO SOLO.
+
 | Params   | Elemento a ser validado                        |
 | -------- | ---------------------------------------------- |
 | Del_fts  | Botão delete faixa de teores do solo           |
 | Edit_fts | Botão Editar faixa de teores do solo           |
 | Novo_fts | Botão Nova faixa de teores do solo             |
 | View_fts | Visualização da página faixa de teores do solo |
-___
-##### PERMISSION FAIXA DE TEORES FOLIAR.
+
+#### PERMISSION FAIXA DE TEORES FOLIAR.
+
 | Params   | Elemento a ser validado                       |
 | -------- | --------------------------------------------- |
 | Del_ftf  | Botão delete faixa de teores foliar           |
