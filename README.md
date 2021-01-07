@@ -267,34 +267,36 @@ Então segue a lista com os registros de permissões existente no banco de dados
 | Edit_ad | Botão Editar adubo  |
 | Novo_ad | Botão Novo adubo  |
 | View_ad | Visualização da página adubo |
-___
 
 ##### PERMISSION CLIENTE.
+
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_cl  | Botão delete cliente |
 | Edit_ad | Botão Editar cliente  |
 | Novo_ad | Botão Novo cliente  |
 | View_ad | Visualização da página cliente |
-___
 
 ##### PERMISSION FORNECEDOR.
+
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_forn  | Botão delete fornecedor |
 | Edit_forn | Botão Editar fornecedor  |
 | Novo_forn | Botão Novo fornecedor  |
 | View_forn | Visualização da página fornecedor |
+
 ##### PERMISSION LABORATÓRIO.
-___
+
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_lb  | Botão delete Laboratório |
 | Edit_lb | Botão Editar Laboratório  |
 | Novo_lb | Botão Novo Laboratório  |
 | View_lb | Visualização da página Laboratório |
+
 ##### PERMISSION PRODUTO.
-___
+
 |   Params  | Elemento a ser validado        |
 | --------- | ------------------------------ |
 | Del_prod  | Botão delete produto           |
