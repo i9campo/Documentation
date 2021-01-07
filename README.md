@@ -203,48 +203,38 @@ ___
 | View_exn  | Visualização da página exportação de nutrientes  |
 ___
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
-___
-
 | Params   | Elemento a ser validado                        |
 | -------- | ---------------------------------------------- |
 | Del_fts  | Botão delete faixa de teores do solo           |
 | Edit_fts | Botão Editar faixa de teores do solo           |
 | Novo_fts | Botão Nova faixa de teores do solo             |
 | View_fts | Visualização da página faixa de teores do solo |
-
-
-##### PERMISSION FAIXA DE TEORES FOLIAR.
 ___
-
+##### PERMISSION FAIXA DE TEORES FOLIAR.
 | Params   | Elemento a ser validado                       |
 | -------- | --------------------------------------------- |
 | Del_ftf  | Botão delete faixa de teores foliar           |
 | Edit_ftf | Botão Editar faixa de teores foliar           |
 | Novo_ftf | Botão Nova faixa de teores foliar             |
 | View_ftf | Visualização da página faixa de teores foliar |
-
-##### PERMISSION PADRÃO DE FOLIARES.
 ___
-
+##### PERMISSION PADRÃO DE FOLIARES.
 | Params | Elemento a ser validado                     |
 | -------- | ----------------------------------------- |
 | Del_pdf  | Botão delete padrão de foliares           |
 | Edit_pdf | Botão Editar padrão de foliares           |
 | Novo_pdf | Botão Nova padrão de foliares             |
 | View_pdf | Visualização da página padrão de foliares |
-
-##### PERMISSION PADRÃO DA PLANTA.
 ___
-
+##### PERMISSION PADRÃO DA PLANTA.
 | Params | Elemento a ser validado                  |
 | ------- | --------------------------------------- |
 | Del_pp  | Botão delete padrão da planta           |
 | Edit_pp | Botão Editar padrão da planta           |
 | Novo_pp | Botão Nova padrão da planta             |
 | View_pp | Visualização da página padrão da planta |
-
-##### PERMISSION RESTEVA.
 ___
+##### PERMISSION RESTEVA.
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_rst  | Botão delete resteva |
