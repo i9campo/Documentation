@@ -24,7 +24,7 @@
 &nbsp;
 #### Publicando o projeto WEBAPI no IIS.
 - Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
-- Após esse processo só publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
+- Após esse processo, basta clicar em publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
 
 # CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA REQUISIÇÃO ("GET").  
 
