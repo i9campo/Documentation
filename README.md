@@ -31,7 +31,7 @@
 #### GET ADUBO
 >Retorna todos os registros de adubo. 
 ```sh
-let objeto = await api.get('/adubo/');
+let objeto = await api.get('/adubo');
 ```
 >Retorna somente um objeto de adubo. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
@@ -42,7 +42,7 @@ let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 #### GET AMOSTRA FOLIAR. 
 >Retorna todos os registros da amostra foliar. 
 ```sh
-let objeto = await api.get('/amostrafoliar/');
+let objeto = await api.get('/amostrafoliar');
 ```
 >Retorna um objeto amostra foliar. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto amaostra foliar. 
@@ -53,7 +53,7 @@ let objeto = await api.get('/amostrafoliar', {params: {objID: variável declarad
 #### GET ANALISE SOLO. 
 >Retorna todos os registros. 
 ```sh
-let objeto = await api.get('/analisesolo/');
+let objeto = await api.get('/analisesolo');
 ```
 >Retorna um objeto análise solo. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto análise solo. 
@@ -87,7 +87,7 @@ let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedad
 #### GET AREA. 
 >Retorna todos os registros da tabela área. 
 ```sh
-let objeto = await api.get('/area/');
+let objeto = await api.get('/area');
 ```
 >Retorna um objeto área. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto área. 
@@ -106,7 +106,7 @@ let objeto = await api.get('/area/getbypropriedadesafra', {params: {IDPropriedad
 #### GET AREA SERVICO. 
 >Retorna todos os registros da tabela área serviço. 
 ```sh
-let objeto = await api.get('/areaservico/');
+let objeto = await api.get('/areaservico');
 ```
 >Retorna um objeto área serviço. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
@@ -130,7 +130,7 @@ let objeto = await api.get('/areaservico/getbypropriedadesafra', {params: {IDPro
 #### GET CICLO DE PRODUÇÃO. 
 >Retorna todos os registros da tabela ciclo de produção. 
 ```sh
-let objeto = await api.get('/cicloproducao/');
+let objeto = await api.get('/cicloproducao');
 ```
 >Retorna um objeto ciclo producao. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
