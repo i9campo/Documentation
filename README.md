@@ -33,8 +33,8 @@
 ```sh
 let objeto = await api.get('/adubo');
 ```
->Retorna somente um objeto de adubo. 
-**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
+>Retorna somente um objeto de adubo.
+ >**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 ```sh
 let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 ```  
@@ -375,5 +375,3 @@ Então segue a lista com os registros de permissões existente no banco de dados
 | Usuário        | Permissão para usuário   |
 | View_cult_bt   | Botão geral de cultura   |
 |View_cad_bt     | Botão geral de cadastro  |
-
-
