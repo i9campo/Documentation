@@ -177,8 +177,10 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 > Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
 Então segue a lista com os registros de permissões existente no banco de dados.   
 
-##### PERMISSION CULTURA.
 ___
+&nbsp;
+##### PERMISSION CULTURA.
+&nbsp;
 
 |   Params    | Elemento a ser validado          |
 |  ---------  | -------------------------------  |
@@ -186,27 +188,27 @@ ___
 |  Edit_cult  | Botão Editar cultura             |
 |  Novo_cult  | Botão Nova cultura               |
 |  View_cult  | Visualização da pagina cultura   |
-
-##### PERMISSION ESTÁGIO FERNOLÔGICO.
 ___
-
+&nbsp;
+##### PERMISSION ESTÁGIO FERNOLÔGICO.
+&nbsp;
 | Params    | Elemento a ser validado                     |
 | --------  | ------------------------------------------- |
 | Del_ef    | Botão delete estágio fernolôgico            |
 | Edit_ef   | Botão Editar estágio fernolôgico            | 
 | Novo_ef   | Botão Nova estágio fernolôgico              |
 | View_ef   | Visualização da página estágio fernolôgico  |
-
-##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 ___
-
+&nbsp;
+##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
+&nbsp;
 | Params    | Elemento a ser validado                          |
 | --------- | ------------------------------------------------ |
 | Del_exn   | Botão delete exportação de nutrientes            |
 | Edit_exn  | Botão Editar exportação de nutrientes            |
 | Novo_exn  | Botão Nova exportação de nutrientes              |
 | View_exn  | Visualização da página exportação de nutrientes  |
-
+___
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 ___
 
