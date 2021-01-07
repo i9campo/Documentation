@@ -222,8 +222,9 @@ Então segue a lista com os registros de permissões existente no banco de dados
 | Edit_ftf | Botão Editar faixa de teores foliar           |
 | Novo_ftf | Botão Nova faixa de teores foliar             |
 | View_ftf | Visualização da página faixa de teores foliar |
-___
-##### PERMISSION PADRÃO DE FOLIARES.
+
+#### PERMISSION PADRÃO DE FOLIARES.
+
 | Params | Elemento a ser validado                     |
 | -------- | ----------------------------------------- |
 | Del_pdf  | Botão delete padrão de foliares           |
@@ -231,8 +232,8 @@ ___
 | Novo_pdf | Botão Nova padrão de foliares             |
 | View_pdf | Visualização da página padrão de foliares |
 
-___
-##### PERMISSION PADRÃO DA PLANTA.
+#### PERMISSION PADRÃO DA PLANTA.
+
 | Params | Elemento a ser validado                  |
 | ------- | --------------------------------------- |
 | Del_pp  | Botão delete padrão da planta           |
@@ -240,8 +241,8 @@ ___
 | Novo_pp | Botão Nova padrão da planta             |
 | View_pp | Visualização da página padrão da planta |
 
-___
-##### PERMISSION RESTEVA.
+#### PERMISSION RESTEVA.
+
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_rst  | Botão delete resteva |
@@ -249,17 +250,17 @@ ___
 | Novo_rst | Botão Nova resteva  |
 | View_rst | Visualização da página resteva |
 
-___
-##### PERMISSION VARIEDADE DE CULTURA.
+#### PERMISSION VARIEDADE DE CULTURA.
+
 | Params | Elemento a ser validado |
 | ------- | ------------------------------------------- |
 | Del_vc  | Botão delete variedade de cultura           |
 | Edit_vc | Botão Editar variedade de cultura           |
 | Novo_vc | Botão Nova variedade de cultura             |
 | View_vc | Visualização da página variedade de cultura |
-___
 
-##### PERMISSION ADUBO.
+#### PERMISSION ADUBO.
+
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_ad  | Botão delete adubo |
@@ -294,79 +295,83 @@ ___
 | View_lb | Visualização da página Laboratório |
 ##### PERMISSION PRODUTO.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_prod  | Botão delete produto |
-| Edit_prod | Botão Editar produto  |
-| Novo_prod | Botão Novo produto  |
+|   Params  | Elemento a ser validado        |
+| --------- | ------------------------------ |
+| Del_prod  | Botão delete produto           |
+| Edit_prod | Botão Editar produto           |
+| Novo_prod | Botão Novo produto             |
 | View_prod | Visualização da página produto |
 
 ##### PERMISSION PROPRIEDADE.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_prop  | Botão delete propriedade |
-| Edit_prop | Botão Editar propriedade |
-| Novo_prop | Botão Novo propriedade  |
+
+|   Params  |   Elemento a ser validado          |
+| --------- | ---------------------------------- |
+| Del_prop  | Botão delete propriedade           |
+| Edit_prop | Botão Editar propriedade           |
+| Novo_prop | Botão Novo propriedade             |
 | View_prop | Visualização da página propriedade |
+
 ##### PERMISSION SAFRA.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_sf  | Botão delete safra |
-| Edit_sf | Botão Editar safra |
-| Novo_sf | Botão Novo safra  |
+
+|  Params | Elemento a ser validado      |
+| ------- | ---------------------------- |
+| Del_sf  | Botão delete safra           |
+| Edit_sf | Botão Editar safra           |
+| Novo_sf | Botão Novo safra             |
 | View_sf | Visualização da página safra |
 
 ##### PERMISSION TIPO ÁREA DE PLANTIO.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_tap  | Botão delete tipo área de plantio |
-| Edit_tap | Botão Editar tipo área de plantio |
-| Novo_tap | Botão Novo tipo área de plantio  |
+
+| Params   | Elemento a ser validado                     |
+| -------- | ------------------------------------------- |
+| Del_tap  | Botão delete tipo área de plantio           |
+| Edit_tap | Botão Editar tipo área de plantio           |
+| Novo_tap | Botão Novo tipo área de plantio             |
 | View_tap | Visualização da página tipo área de plantio |
 
 ##### PERMISSION TIPO AMOSTRA.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_ta  | Botão delete tipo amostra |
-| Edit_ta | Botão Editar tipo amostra |
-| Novo_ta | Botão Novo tipo amostra  |
-| View_ta | Visualização da página tipo amostra |
+
+| Params    | Elemento a ser validado                     |
+| --------  | ------------------------------------------- |
+| Del_ta    | Botão delete tipo amostra                   |
+| Edit_ta   | Botão Editar tipo amostra                   |
+| Novo_ta   | Botão Novo tipo amostra                     |
+| View_ta   | Visualização da página tipo amostra         |
+
 ##### PERMISSION TIPO DE SOLO.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_ts  | Botão delete tipo de solo |
-| Edit_ts | Botão Editar tipo de solo |
-| Novo_ts | Botão Novo  tipo de solo |
+
+| Params  | Elemento a ser validado              |
+| ------- | ------------------------------------ |
+| Del_ts  | Botão delete tipo de solo            |
+| Edit_ts | Botão Editar tipo de solo            |
+| Novo_ts | Botão Novo  tipo de solo             |
 | View_ts | Visualização da página  tipo de solo |
+
 ##### PERMISSION UNIDADE DE LABORATÓRIO.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_unl  | Botão delete unidade de laboratório |
-| Edit_unl | Botão Editar unidade de laboratório |
-| Novo_unl | Botão Novo unidade de laboratório |
+
+| Params   | Elemento a ser validado                       |
+| -------  | --------------------------------------------- |
+| Del_unl  | Botão delete unidade de laboratório           |
+| Edit_unl | Botão Editar unidade de laboratório           |
+| Novo_unl | Botão Novo unidade de laboratório             |
 | View_unl | Visualização da página unidade de laboratório |
+
 ##### PERMISSION UNIDADE DE MEDIDA.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_unm  | Botão delete unidade de medida |
-| Edit_unm | Botão Editar unidade de medida |
-| Novo_unm | Botão Novo unidade de medida|
-| View_unm | Visualização da página unidade de medida |
+
+| Params   | Elemento a ser validado                       |
+| -------  | --------------------------------------------- |
+| Del_unm  | Botão delete unidade de medida                |
+| Edit_unm | Botão Editar unidade de medida                |
+| Novo_unm | Botão Novo unidade de medida                  |
+| View_unm | Visualização da página unidade de medida      |
 
 ##### PERMISSION USUÁRIO.
-___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Administrador  | Permissão para adm     |
-| Usuário        | Permissão para usuário |
-| View_cult_bt   | Botão geral de cultura |
-|View_cad_bt     | Botão geral de cadastro|
+
+| Params         | Elemento a ser validado  |
+| -------------- | -----------------------  |
+| Administrador  | Permissão para adm       |
+| Usuário        | Permissão para usuário   |
+| View_cult_bt   | Botão geral de cultura   |
+|View_cad_bt     | Botão geral de cadastro  |
 
 
