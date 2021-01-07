@@ -181,7 +181,7 @@ Então segue a lista com os registros de permissões existente no banco de dados
 ___
 
     |   Params    | Elemento a ser validado          |
-    | :---------: | -------------------------------: |
+    |  ---------  | -------------------------------  |
     |  Del_cult   | Botão delete cultura             |  
     |  Edit_cult  | Botão Editar cultura             |
     |  Novo_cult  | Botão Nova cultura               |
@@ -191,7 +191,7 @@ ___
 ___
 
     | Params    | Elemento a ser validado                     |
-    | :-------: | :------------------------------------------:|
+    | --------  | ------------------------------------------- |
     | Del_ef    | Botão delete estágio fernolôgico            |
     | Edit_ef   | Botão Editar estágio fernolôgico            | 
     | Novo_ef   | Botão Nova estágio fernolôgico              |
@@ -199,20 +199,23 @@ ___
 
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_exn  | Botão delete exportação de nutrientes |
-| Edit_exn | Botão Editar exportação de nutrientes  |
-| Novo_exn | Botão Nova exportação de nutrientes  |
-| View_exn | Visualização da página exportação de nutrientes  |
+
+    | Params    | Elemento a ser validado                          |
+    | :-------: | :----------------------------------------------: |
+    | Del_exn   | Botão delete exportação de nutrientes            |
+    | Edit_exn  | Botão Editar exportação de nutrientes            |
+    | Novo_exn  | Botão Nova exportação de nutrientes              |
+    | View_exn  | Visualização da página exportação de nutrientes  |
+    
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_fts  | Botão delete faixa de teores do solo |
-| Edit_fts | Botão Editar faixa de teores do solo  |
-| Novo_fts | Botão Nova faixa de teores do solo  |
-| View_fts | Visualização da página faixa de teores do solo |
+
+    | Params | Elemento a ser validado |
+    | ------ | ------ |
+    | Del_fts  | Botão delete faixa de teores do solo |
+    | Edit_fts | Botão Editar faixa de teores do solo  |
+    | Novo_fts | Botão Nova faixa de teores do solo  |
+    | View_fts | Visualização da página faixa de teores do solo |
 ##### PERMISSION FAIXA DE TEORES FOLIARES.
 ___
 | Params | Elemento a ser validado |
