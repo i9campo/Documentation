@@ -34,10 +34,10 @@
 let objeto = await api.get('/adubo');
 ```
 >Retorna somente um objeto de adubo.
- >**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 ```sh
 let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 ```  
+>**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 
 #### GET AMOSTRA FOLIAR. 
 >Retorna todos os registros da amostra foliar. 
@@ -45,10 +45,10 @@ let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 let objeto = await api.get('/amostrafoliar');
 ```
 >Retorna um objeto amostra foliar. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto amaostra foliar. 
 ```sh
 let objeto = await api.get('/amostrafoliar', {params: {objID: variável declarada }});
 ```  
+>**OBS:** Necessário passar um **objID** como parametro para obter o objeto amaostra foliar. 
 
 #### GET ANALISE SOLO. 
 >Retorna todos os registros. 
@@ -56,20 +56,25 @@ let objeto = await api.get('/amostrafoliar', {params: {objID: variável declarad
 let objeto = await api.get('/analisesolo');
 ```
 >Retorna um objeto análise solo. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto análise solo. 
 ```sh
 let objeto = await api.get('/analisesolo', {params: {objID: variável declarada }});
 ```
+>**OBS:** Necessário passar um **objID** como parametro para obter o objeto análise solo.  
+
 >Retorna uma lista de análise solo a partir do objID do **GRID**.
 ```sh
 let objeto = await api.get('/analisesolo/getbygrid', {params: {IDGrid: variável declarada }});
 ```
+>**OBS:** Necessário passar um **IDGrid** como parametro para obter a lista de analise solo. 
+
 >Retorna uma lista de análise solo a partir do objID da **PROPRIEDADE**.
 ```sh
 let objeto = await api.get('/analisesolo/getanalisebypropriedade', {params: {IDPropriedade: variável declarada }});
 ```
+>**OBS:** Necessário passar um **IDPropriedade** como parametro para obter a lista de analise solo. 
+
 >Retorna uma lista de analise solo contendo informações dos pontos de coleta. 
->**OBS:** Para definir como será o retorno da busca, vai ser necessário a declaração do parametro *"TIPO"* junto com o objID da área. 
+
 >**Importante:** 
 >- Tipo : "PONTOS". Retorna somente um objeto análise solo contendo informações do ponto e subponto. 
 >- Tipo: "PONTO". Retorna somente um objeto Análise solo contendo informações somente do ponto. 
@@ -79,6 +84,8 @@ let objeto = await api.get('/analisesolo/getanalisebypropriedade', {params: {IDP
 ```sh
 let objeto = await api.get('/analisesolo/getanalisepontobyarea', {params: {IDArea: variável declarada, Tipo: "PONTOS"}});
 ```
+>**OBS:** Para definir como será o retorno da busca, vai ser necessário a declaração do parametro *"TIPO"* junto com o objID da área. 
+
 >Retorna a média da análise solo a partir do objID do **GRID** e **Profundidade**.
 ```sh
 let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedade: variável declarada }});
