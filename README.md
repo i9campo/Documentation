@@ -185,6 +185,7 @@ ___
 |  Edit_cult  | Botão Editar cultura             |
 |  Novo_cult  | Botão Nova cultura               |
 |  View_cult  | Visualização da pagina cultura   |
+
 ___
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 | Params    | Elemento a ser validado                     |
@@ -193,6 +194,7 @@ ___
 | Edit_ef   | Botão Editar estágio fernolôgico            | 
 | Novo_ef   | Botão Nova estágio fernolôgico              |
 | View_ef   | Visualização da página estágio fernolôgico  |
+
 ___
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 | Params    | Elemento a ser validado                          |
@@ -201,6 +203,7 @@ ___
 | Edit_exn  | Botão Editar exportação de nutrientes            |
 | Novo_exn  | Botão Nova exportação de nutrientes              |
 | View_exn  | Visualização da página exportação de nutrientes  |
+
 ___
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 | Params   | Elemento a ser validado                        |
@@ -209,6 +212,7 @@ ___
 | Edit_fts | Botão Editar faixa de teores do solo           |
 | Novo_fts | Botão Nova faixa de teores do solo             |
 | View_fts | Visualização da página faixa de teores do solo |
+
 ___
 ##### PERMISSION FAIXA DE TEORES FOLIAR.
 | Params   | Elemento a ser validado                       |
@@ -217,6 +221,7 @@ ___
 | Edit_ftf | Botão Editar faixa de teores foliar           |
 | Novo_ftf | Botão Nova faixa de teores foliar             |
 | View_ftf | Visualização da página faixa de teores foliar |
+
 ___
 ##### PERMISSION PADRÃO DE FOLIARES.
 | Params | Elemento a ser validado                     |
@@ -225,6 +230,7 @@ ___
 | Edit_pdf | Botão Editar padrão de foliares           |
 | Novo_pdf | Botão Nova padrão de foliares             |
 | View_pdf | Visualização da página padrão de foliares |
+
 ___
 ##### PERMISSION PADRÃO DA PLANTA.
 | Params | Elemento a ser validado                  |
@@ -233,6 +239,7 @@ ___
 | Edit_pp | Botão Editar padrão da planta           |
 | Novo_pp | Botão Nova padrão da planta             |
 | View_pp | Visualização da página padrão da planta |
+
 ___
 ##### PERMISSION RESTEVA.
 | Params | Elemento a ser validado |
@@ -242,34 +249,35 @@ ___
 | Novo_rst | Botão Nova resteva  |
 | View_rst | Visualização da página resteva |
 
-##### PERMISSION VARIEDADE DE CULTURA.
 ___
-
+##### PERMISSION VARIEDADE DE CULTURA.
 | Params | Elemento a ser validado |
 | ------- | ------------------------------------------- |
 | Del_vc  | Botão delete variedade de cultura           |
 | Edit_vc | Botão Editar variedade de cultura           |
 | Novo_vc | Botão Nova variedade de cultura             |
 | View_vc | Visualização da página variedade de cultura |
+___
 
 ##### PERMISSION ADUBO.
-___
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_ad  | Botão delete adubo |
 | Edit_ad | Botão Editar adubo  |
 | Novo_ad | Botão Novo adubo  |
 | View_ad | Visualização da página adubo |
-##### PERMISSION CLIENTE.
 ___
+
+##### PERMISSION CLIENTE.
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_cl  | Botão delete cliente |
 | Edit_ad | Botão Editar cliente  |
 | Novo_ad | Botão Novo cliente  |
 | View_ad | Visualização da página cliente |
-##### PERMISSION FORNECEDOR.
 ___
+
+##### PERMISSION FORNECEDOR.
 | Params | Elemento a ser validado |
 | ------ | ------ |
 | Del_forn  | Botão delete fornecedor |
