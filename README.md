@@ -177,35 +177,25 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 > Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
 Então segue a lista com os registros de permissões existente no banco de dados.   
 
-##### PERMISSION TESTE.
-___
-| Option | Description |
-| --- | --- |
-| url | Request url |
-| method | ```'get'``` \| ```'post'``` \| ```'put'``` \| ```'delete'``` - (default: ```'get'```) |
-| headers | optional array: ```[{name: string, value: string}]``` |
-| body | Request body (any type) |
-| responseType | ```'text'``` \| ```'json'``` - (defult: ```'text'```) |
-| success | Success function - ```function(data) { }``` |
-| error | Error function - ```function(err) { }``` |
-
 ##### PERMISSION CULTURA.
 ___
- Params      | Elemento a ser validado 
- :---------: | -------------------------------:
- Del_cult    | Botão delete cultura 
- Edit_cult   | Botão Editar cultura 
- Novo_cult   | Botão Nova cultura 
- View_cult   | Visualização da pagina cultura 
+
+    |   Params    | Elemento a ser validado          |
+    | :---------: | -------------------------------: |
+    |  Del_cult   | Botão delete cultura             |  
+    |  Edit_cult  | Botão Editar cultura             |
+    |  Novo_cult  | Botão Nova cultura               |
+    |  View_cult  | Visualização da pagina cultura   |
 
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_ef  | Botão delete estágio fernolôgico |
-| Edit_ef | Botão Editar estágio fernolôgico  |
-| Novo_ef | Botão Nova estágio fernolôgico  |
-| View_ef | Visualização da página estágio fernolôgico  |
+
+    | Params    | Elemento a ser validado                     |
+    | :-------: | :------------------------------------------:|
+    | Del_ef    | Botão delete estágio fernolôgico            |
+    | Edit_ef   | Botão Editar estágio fernolôgico            | 
+    | Novo_ef   | Botão Nova estágio fernolôgico              |
+    | View_ef   | Visualização da página estágio fernolôgico  |
 
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 ___
