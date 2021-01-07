@@ -171,24 +171,14 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 > Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
 Então segue a lista com os registros de permissões existente no banco de dados.   
 
-##### TESTE.
-___
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
 ##### PERMISSION CULTURA.
 ___
-| Params | Elemento a ser validado 
-| ------ | ------ 
-| Del_cult  | Botão delete cultura 
-| Edit_cult | Botão Editar cultura 
-| Novo_cult | Botão Nova cultura 
-| View_cult | Visualização da pagina cultura 
+ Params      | Elemento a ser validado 
+ :---------: | -------------------------------:
+ Del_cult    | Botão delete cultura 
+ Edit_cult   | Botão Editar cultura 
+ Novo_cult   | Botão Nova cultura 
+ View_cult   | Visualização da pagina cultura 
 
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 ___
