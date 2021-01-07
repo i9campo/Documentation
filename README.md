@@ -1,22 +1,28 @@
 # CONFIG CONNECTION SIGMA.WEBAPI2 C#.
-##### Link de conexão com **API LOCAL** ( https://sigma.sigma.local ).
+#### Link de conexão com **API LOCAL** ( https://sigma.sigma.local ).
+&nbsp;
 - Caso a conexão do front-end **"React JS"** não funcione com a **API**, basta acessar o link da **API LOCAL** e ative o certificado SSL.
 - Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-local"**.
 - Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-local"**).
-##### Link de conexão com **API REMOTA** ( https://sigma.siccerrado.com.br ).
+&nbsp;
+#### Link de conexão com **API REMOTA** ( https://sigma.siccerrado.com.br ).
 - Caso a conexão do front-end **"React JS"** não funcione com a **API**, basta acessar o link da **API REMOTA** e ative o certificado SSL.
 - Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-ext"**.
 - Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-ext"**).
-##### Para debugar a API
+&nbsp;
+#### Para debugar a API
 - Necessário executar o projeto WEBAPI pelo visual studio. 
 - Para executar o front-end **"React JS"** pelo visual code, basta clicar na aba **"SCRIPTS"** logo em seguida em **"start-api"**.
 - Sé preferir pode executar através de linha de comando **"CMD"** com o seguinte código. (**"npm run start-api"**).
-# CONFIG PUBLISH PROJECT.
-##### Publicando projeto front-end **"React JS"** no IIS.
+&nbsp;
+# CONFIG PUBLISH PROJECT.  
+
+#### Publicando projeto front-end **"React JS"** no IIS.
 - Primeiro você tem que executar o comando **"npm run build-ext"** ou clicar na aba **"SCRIPTS"** logo em seguida em **"build-ext"**. 
 - Após o primeiro processo ser concluído, o projeto automaticamente vai criar uma pasta chamada **BUILD**.
 - Abra a pasta **BUILD** e copie todos os arquivos para dentro do servidor na pasta (F - IIS / SigmaDev). Prontinho processo feito com sucesso.
-##### Publicando o projeto WEBAPI no IIS.
+&nbsp;
+#### Publicando o projeto WEBAPI no IIS.
 - Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
 - Após esse processo só publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
 
