@@ -179,28 +179,28 @@ Então segue a lista com os registros de permissões existente no banco de dados
 
 ___
 ##### PERMISSION CULTURA.
-    |   Params    | Elemento a ser validado          |
-    |  ---------  | -------------------------------  |
-    |  Del_cult   | Botão delete cultura             |  
-    |  Edit_cult  | Botão Editar cultura             |
-    |  Novo_cult  | Botão Nova cultura               |
-    |  View_cult  | Visualização da pagina cultura   |
+|   Params    | Elemento a ser validado          |
+|  ---------  | -------------------------------  |
+|  Del_cult   | Botão delete cultura             |  
+|  Edit_cult  | Botão Editar cultura             |
+|  Novo_cult  | Botão Nova cultura               |
+|  View_cult  | Visualização da pagina cultura   |
 ___
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
-    | Params    | Elemento a ser validado                     |
-    | --------  | ------------------------------------------- |
-    | Del_ef    | Botão delete estágio fernolôgico            |
-    | Edit_ef   | Botão Editar estágio fernolôgico            | 
-    | Novo_ef   | Botão Nova estágio fernolôgico              |
-    | View_ef   | Visualização da página estágio fernolôgico  |
+| Params    | Elemento a ser validado                     |
+| --------  | ------------------------------------------- |
+| Del_ef    | Botão delete estágio fernolôgico            |
+| Edit_ef   | Botão Editar estágio fernolôgico            | 
+| Novo_ef   | Botão Nova estágio fernolôgico              |
+| View_ef   | Visualização da página estágio fernolôgico  |
 ___
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
-    | Params    | Elemento a ser validado                          |
-    | --------- | ------------------------------------------------ |
-    | Del_exn   | Botão delete exportação de nutrientes            |
-    | Edit_exn  | Botão Editar exportação de nutrientes            |
-    | Novo_exn  | Botão Nova exportação de nutrientes              |
-    | View_exn  | Visualização da página exportação de nutrientes  |
+| Params    | Elemento a ser validado                          |
+| --------- | ------------------------------------------------ |
+| Del_exn   | Botão delete exportação de nutrientes            |
+| Edit_exn  | Botão Editar exportação de nutrientes            |
+| Novo_exn  | Botão Nova exportação de nutrientes              |
+| View_exn  | Visualização da página exportação de nutrientes  |
 ___
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 ___
