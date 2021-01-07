@@ -39,136 +39,142 @@ let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 ```  
 >**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 
-#### GET AMOSTRA FOLIAR. 
->Retorna todos os registros da amostra foliar. 
+### GET AMOSTRA FOLIAR. 
+> #### Retorna todos os registros da amostra foliar. 
 ```sh
 let objeto = await api.get('/amostrafoliar');
 ```
->Retorna um objeto amostra foliar. 
+> #### Retorna um objeto amostra foliar. 
 ```sh
 let objeto = await api.get('/amostrafoliar', {params: {objID: variável declarada }});
 ```  
 >**OBS:** Necessário passar um **objID** como parametro para obter o objeto amaostra foliar. 
 
-#### GET ANALISE SOLO. 
->Retorna todos os registros. 
+### GET ANALISE SOLO. 
+> #### Retorna todos os registros. 
 ```sh
 let objeto = await api.get('/analisesolo');
 ```
->Retorna um objeto análise solo. 
+> #### Retorna um objeto análise solo. 
 ```sh
 let objeto = await api.get('/analisesolo', {params: {objID: variável declarada }});
 ```
 >**OBS:** Necessário passar um **objID** como parametro para obter o objeto análise solo.  
 
->Retorna uma lista de análise solo a partir do objID do **GRID**.
+> #### Retorna uma lista de análise solo a partir do objID do **GRID**.
 ```sh
 let objeto = await api.get('/analisesolo/getbygrid', {params: {IDGrid: variável declarada }});
 ```
 >**OBS:** Necessário passar um **IDGrid** como parametro para obter a lista de analise solo. 
 
->Retorna uma lista de análise solo a partir do objID da **PROPRIEDADE**.
+> #### Retorna uma lista de análise solo a partir do objID da **PROPRIEDADE**.
 ```sh
 let objeto = await api.get('/analisesolo/getanalisebypropriedade', {params: {IDPropriedade: variável declarada }});
 ```
 >**OBS:** Necessário passar um **IDPropriedade** como parametro para obter a lista de analise solo. 
 
->Retorna uma lista de analise solo contendo informações dos pontos de coleta. 
+> #### Retorna uma lista de analise solo contendo informações dos pontos de coleta. 
 
->**Importante:** 
->- Tipo : "PONTOS". Retorna somente um objeto análise solo contendo informações do ponto e subponto. 
->- Tipo: "PONTO". Retorna somente um objeto Análise solo contendo informações somente do ponto. 
->- Tipo: "PONTOSLS". Retorna uma lista de Análise solo contendo informações do ponto e subponto.
->- Tipo: "PONTOLS" , Retorna uma lista de Análise solo contendo informações somente do ponto. 
+>**Importante : " Descrição dos parametros TIPO ".** 
+>- "PONTOS": Retorna somente um objeto análise solo contendo informações do ponto e subponto. 
+>- "PONTO" : Retorna somente um objeto Análise solo contendo informações somente do ponto. 
+>- "PONTOSLS": Retorna uma lista de Análise solo contendo informações do ponto e subponto.
+>- "PONTOLS" : Retorna uma lista de Análise solo contendo informações somente do ponto. 
 
 ```sh
 let objeto = await api.get('/analisesolo/getanalisepontobyarea', {params: {IDArea: variável declarada, Tipo: "PONTOS"}});
 ```
->**OBS:** Para definir como será o retorno da busca, vai ser necessário a declaração do parametro *"TIPO"* junto com o objID da área. 
+>**OBS:** Para definir como será o retorno da busca, vai ser necessário a declaração do parametro ***"TIPO"*** junto com o objID da área ***("IDArea")***. 
 
->Retorna a média da análise solo a partir do objID do **GRID** e **Profundidade**.
+> #### Retorna a média da análise solo a partir do objID do **GRID** e a **Profundidade**.
 ```sh
-let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedade: variável declarada }});
+let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedade: variável declarada, Profundidade: "00 - 20" }});
 ```  
+>**OBS:** O Parametro profundidade é do tipo string então temos dois tipos ***"00 - 20"*** ou ***"00 - 40"***.
 
-#### GET AREA. 
->Retorna todos os registros da tabela área. 
+### GET AREA. 
+> #### Retorna todos os registros da tabela área. 
 ```sh
 let objeto = await api.get('/area');
 ```
->Retorna um objeto área. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto área. 
+> #### Retorna um objeto área. 
 ```sh
 let objeto = await api.get('/area/getarea', {params: {objID: variável declarada }});
 ```
->Retorna todos os registros da área a partir do objID da **Propriedade.**
+>**OBS:** Necessário passar um objID como parametro para obter o objeto área. 
+
+> #### Retorna todos os registros da área a partir do objID da Propriedade, ***("IDPropriedade")***
 ```sh
 let objeto = await api.get('/area/getbypropriedade', {params: {IDPropriedade: variável declarada }});
 ```
->Retorna todas as áreas da propriedade que possui algum serviço na safra
+> #### Retorna todas as áreas da propriedade que possui algum serviço na safra
 ```sh
 let objeto = await api.get('/area/getbypropriedadesafra', {params: {IDPropriedade: variável declarada, IDSafra: variável declarada }});
 ```  
 
-#### GET AREA SERVICO. 
->Retorna todos os registros da tabela área serviço. 
+### GET AREA SERVICO. 
+> #### Retorna todos os registros da tabela área serviço. 
 ```sh
 let objeto = await api.get('/areaservico');
 ```
->Retorna um objeto área serviço. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+> #### Retorna um objeto área serviço. 
 ```sh
 let objeto = await api.get('/areaservico', {params: {objID: variável declarada }});
 ```
->Retorna um objeto mais detalhado da área serviço. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+
+> #### Retorna um objeto mais detalhado da área serviço. 
 ```sh
 let objeto = await api.get('/areaservico/getfulldesc', {params: {objID: variável declarada }});
 ```
->Retorna uma lista da área serviço a partir da objID da área e o objID da safra. 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+
+> #### Retorna uma lista da área serviço a partir da objID da área e o objID da safra. 
 ```sh
 let objeto = await api.get('/areaservico/getbyareaservico', {params: {IDArea: variável declarada, IDSafra: Variável declarada }});
 ```
->Retorna uma lista da área serviço a partir do objID da propriedade e o objID da safra. 
+> #### Retorna uma lista da área serviço a partir do objID da propriedade e o objID da safra. 
 ```sh
 let objeto = await api.get('/areaservico/getbypropriedadesafra', {params: {IDPropriedade: variável declarada, IDSafra: variável declarada }});
 ```
 
-#### GET CICLO DE PRODUÇÃO. 
->Retorna todos os registros da tabela ciclo de produção. 
+### GET CICLO DE PRODUÇÃO. 
+> #### Retorna todos os registros da tabela ciclo de produção. 
 ```sh
 let objeto = await api.get('/cicloproducao');
 ```
->Retorna um objeto ciclo producao. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+> #### Retorna um objeto ciclo producao. 
 ```sh
 let objeto = await api.get('/cicloproducao', {params: {objID: variável declarada }});
 ```
->Retorna um objeto mais detalhado da área serviço. 
 >**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+
+> #### Retorna um objeto mais detalhado da área serviço. 
 ```sh
 let objeto = await api.get('/areaservico/getfulldesc', {params: {objID: variável declarada }});
 ```
->Retorna uma lista de ciclo de produção a partir do objID da área servico é o tipo. 
-> **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
+>**OBS:** Necessário passar um objID como parametro para obter o objeto da área serviço. 
+
+> #### Retorna uma lista de ciclo de produção a partir do objID da área servico é o tipo. 
 > **IMPORTANTE:**
 - TIPO = "CI" ('CICLO INTERMEDIARIO'). 
 - TIPO = "CP" ('CICLO DE PRODUÇÃO'). 
 ```sh
 let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {IDAreaServico: variável declarada, Type: "CP"}});
 ```
->Retorna uma objeto ciclo de produção a partir do objID e o tipo. 
 > **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
+
+> ####  Retorna uma objeto ciclo de produção a partir do objID e o tipo. 
 > **IMPORTANTE:**
 - TIPO = "CI" ('CICLO INTERMEDIARIO'). 
 - TIPO = "CP" ('CICLO DE PRODUÇÃO'). 
 ```sh
 let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID: variável declarada, Type: "CP"}});
 ```  
+> **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
 
-#### GET PERMISSION SINC. 
->Retorna um valor boolean, caso o usuário não tenha permissão o valor retorna verdadeiro. 
-**OBS:** Essa requisição ela não é assincrona por tanto não será necessário o uso do await, mas sim do **then**.
+### GET PERMISSION SINC. 
+> #### Retorna um valor boolean, caso o usuário não tenha permissão o valor retorna verdadeiro. 
 ```sh
     api.get("/roles/checkpermission", {params: {role: "View_cult_bt"}})
     .then(res => { 
@@ -179,7 +185,9 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
       }
     })
 ```
-##### GET PERMISSION PARAMS TABLE.   
+**OBS:** Essa requisição ela não é assincrona por tanto não será necessário o uso do await, mas sim do **then**.
+
+### GET PERMISSION PARAMS TABLE.   
 
 > Essa lista ela só é atualizada no banco de dados na tabela AspNetRoles caso exista uma nova permissão. 
 Então segue a lista com os registros de permissões existente no banco de dados.   
