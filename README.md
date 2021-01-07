@@ -17,23 +17,23 @@
 &nbsp;
 # CONFIG PUBLISH PROJECT.  
 
-#### Publicando projeto front-end **"React JS"** no IIS.
+### Publicando projeto front-end **"React JS"** no IIS.
 - Primeiro você tem que executar o comando **"npm run build-ext"** ou clicar na aba **"SCRIPTS"** logo em seguida em **"build-ext"**. 
 - Após o primeiro processo ser concluído, o projeto automaticamente vai criar uma pasta chamada **BUILD**.
 - Abra a pasta **BUILD** e copie todos os arquivos para dentro do servidor na pasta (F - IIS / SigmaDev). Prontinho processo feito com sucesso.
 &nbsp;
-#### Publicando o projeto WEBAPI no IIS.
+### Publicando o projeto WEBAPI no IIS.
 - Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
 - Após esse processo, basta clicar em publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
 
-# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA REQUISIÇÃO ("GET").  
+# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DE REQUISIÇÃO ("GET").  
 
-#### GET ADUBO
->Retorna todos os registros de adubo. 
+### GET ADUBO
+> #### Retorna todos os registros de adubo. 
 ```sh
 let objeto = await api.get('/adubo');
 ```
->Retorna somente um objeto de adubo.
+> #### Retorna somente um objeto de adubo.
 ```sh
 let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 ```  
