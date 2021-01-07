@@ -185,7 +185,6 @@ ___
 |  Edit_cult  | Botão Editar cultura             |
 |  Novo_cult  | Botão Nova cultura               |
 |  View_cult  | Visualização da pagina cultura   |
-
 ___
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 | Params    | Elemento a ser validado                     |
@@ -194,7 +193,6 @@ ___
 | Edit_ef   | Botão Editar estágio fernolôgico            | 
 | Novo_ef   | Botão Nova estágio fernolôgico              |
 | View_ef   | Visualização da página estágio fernolôgico  |
-
 ___
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 | Params    | Elemento a ser validado                          |
@@ -203,7 +201,6 @@ ___
 | Edit_exn  | Botão Editar exportação de nutrientes            |
 | Novo_exn  | Botão Nova exportação de nutrientes              |
 | View_exn  | Visualização da página exportação de nutrientes  |
-
 ___
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 | Params   | Elemento a ser validado                        |
@@ -212,7 +209,6 @@ ___
 | Edit_fts | Botão Editar faixa de teores do solo           |
 | Novo_fts | Botão Nova faixa de teores do solo             |
 | View_fts | Visualização da página faixa de teores do solo |
-
 ___
 ##### PERMISSION FAIXA DE TEORES FOLIAR.
 | Params   | Elemento a ser validado                       |
@@ -221,7 +217,6 @@ ___
 | Edit_ftf | Botão Editar faixa de teores foliar           |
 | Novo_ftf | Botão Nova faixa de teores foliar             |
 | View_ftf | Visualização da página faixa de teores foliar |
-
 ___
 ##### PERMISSION PADRÃO DE FOLIARES.
 | Params | Elemento a ser validado                     |
