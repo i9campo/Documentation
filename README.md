@@ -26,7 +26,7 @@
 - Abra o visual studio, clique em 1 - servicos/ Sigma.WebApi2 com o botão direito, depois em publish ou publicar. 
 - Após esse processo só publicar, caso a pasta não esteja respondendo basta editar e colocar o caminho para  (F - IIS/ Sigma).  
 
-# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA API ("GET").  
+# CONFIG CHAMADAS ASSINCRONAS ATRAVÉS DA REQUISIÇÃO ("GET").  
 
 #### GET ADUBO
 >Retorna todos os registros de adubo. 
@@ -34,7 +34,7 @@
 let objeto = await api.get('/adubo');
 ```
 >Retorna somente um objeto de adubo. 
->**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
+**OBS:** Necessário passar um objID como parametro para obter o objeto adubo. 
 ```sh
 let objeto = await api.get('/adubo', {params: {objID: variável declarada }});
 ```  
