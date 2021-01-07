@@ -180,65 +180,72 @@ Então segue a lista com os registros de permissões existente no banco de dados
 ##### PERMISSION CULTURA.
 ___
 
-    |   Params    | Elemento a ser validado          |
-    |  ---------  | -------------------------------  |
-    |  Del_cult   | Botão delete cultura             |  
-    |  Edit_cult  | Botão Editar cultura             |
-    |  Novo_cult  | Botão Nova cultura               |
-    |  View_cult  | Visualização da pagina cultura   |
+|   Params    | Elemento a ser validado          |
+|  ---------  | -------------------------------  |
+|  Del_cult   | Botão delete cultura             |  
+|  Edit_cult  | Botão Editar cultura             |
+|  Novo_cult  | Botão Nova cultura               |
+|  View_cult  | Visualização da pagina cultura   |
 
 ##### PERMISSION ESTÁGIO FERNOLÔGICO.
 ___
 
-    | Params    | Elemento a ser validado                     |
-    | --------  | ------------------------------------------- |
-    | Del_ef    | Botão delete estágio fernolôgico            |
-    | Edit_ef   | Botão Editar estágio fernolôgico            | 
-    | Novo_ef   | Botão Nova estágio fernolôgico              |
-    | View_ef   | Visualização da página estágio fernolôgico  |
+| Params    | Elemento a ser validado                     |
+| --------  | ------------------------------------------- |
+| Del_ef    | Botão delete estágio fernolôgico            |
+| Edit_ef   | Botão Editar estágio fernolôgico            | 
+| Novo_ef   | Botão Nova estágio fernolôgico              |
+| View_ef   | Visualização da página estágio fernolôgico  |
 
 ##### PERMISSION EXPORTAÇÃO DE NUTRIENTES.
 ___
 
-    | Params    | Elemento a ser validado                          |
-    | :-------: | :----------------------------------------------: |
-    | Del_exn   | Botão delete exportação de nutrientes            |
-    | Edit_exn  | Botão Editar exportação de nutrientes            |
-    | Novo_exn  | Botão Nova exportação de nutrientes              |
-    | View_exn  | Visualização da página exportação de nutrientes  |
-    
+| Params    | Elemento a ser validado                          |
+| --------- | ------------------------------------------------ |
+| Del_exn   | Botão delete exportação de nutrientes            |
+| Edit_exn  | Botão Editar exportação de nutrientes            |
+| Novo_exn  | Botão Nova exportação de nutrientes              |
+| View_exn  | Visualização da página exportação de nutrientes  |
+
 ##### PERMISSION FAIXA DE TEORES DO SOLO.
 ___
 
-    | Params | Elemento a ser validado |
-    | ------ | ------ |
-    | Del_fts  | Botão delete faixa de teores do solo |
-    | Edit_fts | Botão Editar faixa de teores do solo  |
-    | Novo_fts | Botão Nova faixa de teores do solo  |
-    | View_fts | Visualização da página faixa de teores do solo |
-##### PERMISSION FAIXA DE TEORES FOLIARES.
+| Params   | Elemento a ser validado                        |
+| -------- | ---------------------------------------------- |
+| Del_fts  | Botão delete faixa de teores do solo           |
+| Edit_fts | Botão Editar faixa de teores do solo           |
+| Novo_fts | Botão Nova faixa de teores do solo             |
+| View_fts | Visualização da página faixa de teores do solo |
+
+
+##### PERMISSION FAIXA DE TEORES FOLIAR.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_ftf  | Botão delete faixa de teores foliar |
-| Edit_ftf | Botão Editar faixa de teores foliar  |
-| Novo_ftf | Botão Nova faixa de teores foliar  |
+
+| Params   | Elemento a ser validado                       |
+| -------- | --------------------------------------------- |
+| Del_ftf  | Botão delete faixa de teores foliar           |
+| Edit_ftf | Botão Editar faixa de teores foliar           |
+| Novo_ftf | Botão Nova faixa de teores foliar             |
 | View_ftf | Visualização da página faixa de teores foliar |
+
 ##### PERMISSION PADRÃO DE FOLIARES.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_pdf  | Botão delete padrão de foliares |
-| Edit_pdf | Botão Editar padrão de foliares  |
-| Novo_pdf | Botão Nova padrão de foliares  |
+
+| Params | Elemento a ser validado                     |
+| -------- | ----------------------------------------- |
+| Del_pdf  | Botão delete padrão de foliares           |
+| Edit_pdf | Botão Editar padrão de foliares           |
+| Novo_pdf | Botão Nova padrão de foliares             |
 | View_pdf | Visualização da página padrão de foliares |
+
 ##### PERMISSION PADRÃO DA PLANTA.
 ___
-| Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_pp  | Botão delete padrão da planta |
-| Edit_pp | Botão Editar padrão da planta  |
-| Novo_pp | Botão Nova padrão da planta  |
+
+| Params | Elemento a ser validado                  |
+| ------- | --------------------------------------- |
+| Del_pp  | Botão delete padrão da planta           |
+| Edit_pp | Botão Editar padrão da planta           |
+| Novo_pp | Botão Nova padrão da planta             |
 | View_pp | Visualização da página padrão da planta |
 
 ##### PERMISSION RESTEVA.
@@ -252,12 +259,14 @@ ___
 
 ##### PERMISSION VARIEDADE DE CULTURA.
 ___
+
 | Params | Elemento a ser validado |
-| ------ | ------ |
-| Del_vc  | Botão delete variedade de cultura |
-| Edit_vc | Botão Editar variedade de cultura  |
-| Novo_vc | Botão Nova variedade de cultura  |
+| ------- | ------------------------------------------- |
+| Del_vc  | Botão delete variedade de cultura           |
+| Edit_vc | Botão Editar variedade de cultura           |
+| Novo_vc | Botão Nova variedade de cultura             |
 | View_vc | Visualização da página variedade de cultura |
+
 ##### PERMISSION ADUBO.
 ___
 | Params | Elemento a ser validado |
