@@ -87,9 +87,11 @@ let objeto = await api.get('/analisesolo/getanalisepontobyarea', {params: {IDAre
 >**OBS:** Para definir como será o retorno da busca, vai ser necessário a declaração do parametro ***"TIPO"*** junto com o objID da área ***("IDArea")***. 
 
 > #### Retorna a média da análise solo a partir do objID do **GRID** e a **Profundidade**.
+
 ```sh
 let objeto = await api.get('/analisesolo/getmediabygrid', {params: {IDPropriedade: variável declarada, Profundidade: "00 - 20" }});
 ```  
+
 >**OBS:** O Parametro profundidade é do tipo string então temos dois tipos ***"00 - 20"*** ou ***"00 - 40"***.
 
 ### GET AREA. 
