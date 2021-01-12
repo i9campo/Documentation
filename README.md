@@ -227,17 +227,41 @@ let objeto = await api.get('/corretivo/getmediacorretivo', {params: {objID: vari
 
 ### PUT CORRETIVO.
 
-> #### Marca a opção válida.
+> #### Marca a opção válida para Grid.
 ```sh
-api.put("/corretivo/putopcaogridmarcar", objeto).then(response => {
+api.put("/corretivo/putopcaogridmarcar", objeto completo)
+.then(response => {
   // Condição... 
 })
 ```
 **OBS:** Necessário passar um objeto completo como parâmetro.
 
+> #### Marca a opção válida para Perfil.
+```sh
+api.put("/corretivo/putopcarsmarcar", objeto completo)
+.then(response => { 
+  // Condição... 
+})
+```
+**OBS:** Necessário passar um objeto completo como parâmetro.
 
+> #### Desmarcar a opção válida para Grid.
+```sh
+api.put("/corretivo/putopcaogriddesmarcar", objeto completo)
+.then(response => { 
+  // Condição... 
+})
+```
+**OBS:** Necessário passar um objeto completo como parâmetro.
 
-
+> #### Desmarcar a opção válida para Perfil.
+```sh
+api.put("/corretivo/putopcaoareaservicomarcar", objeto completo)
+.then(response => { 
+  // Condição... 
+})
+```
+**OBS:** Necessário passar um objeto completo como parâmetro.
 
 
 ### GET PERMISSION SINC. 
