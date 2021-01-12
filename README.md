@@ -177,6 +177,69 @@ let objeto = await api.get('/cicloproducao/getallbyareaservico', {params: {objID
 ```  
 > **OBS:** O Tipo vai definir qual Ciclo será retornado, "Ciclo intermediario" ou "Ciclo de produção". 
 
+### GET CORRETIVO. 
+
+> #### Retorna todos os registros da tabela corretivo. 
+```sh
+let objeto = await api.get('/corretivo');
+```
+> #### Retorna um objeto corretivo. 
+```sh
+let objeto = await api.get('/corretivo', {params: {objID: variável declarada }});
+```
+>**OBS:** Necessário passar um objID como parâmetro para obter o objeto corretivo. 
+
+> #### Retorna uma lista de corretivos a partir da área serviço, ***("IDAreaServico")***.
+```sh
+let objeto = await api.get('/corretivo/getbyareaservico', {params: {IDAreaServico: variável declarada }});
+```
+> #### Retorna uma lista de corretivos a partir de um Grid, ***("IDGrid")***.
+```sh
+let objeto = await api.get('/corretivo/getbygrid',{ params: { IDGrid: variável declarada }});
+```
+> #### Retorna uma lista de corretivos a partir da área serviço e a opção selecionada, ***("opcao", "IDAreaServico")***.
+```sh
+let objeto = await api.get('/corretivo/getbyopcaoareaservico', {params: {ocpao: variável declarada, IDAreaServico: variável declarada }});
+```
+> #### Retorna uma lista de corretivos a partir de um Grid e uma opção selecionada, ***("opcao", "IDGrid")***.
+```sh
+let objeto = await api.get('/corretivo/getbyopcaogrid', {params: {ocpao: variável declarada, IDGrid: variável declarada }});
+```
+> #### Retorna a quantidade de corretivos cadastrados por opções de um Grid, Busca realizada através de um Grid ***("IDGrid")***.
+```sh
+let objeto = await api.get('/corretivo/getcountcorretivo', {params: {IDGrid: variável declarada }});
+```
+> #### Retorna a quantidade de corretivos cadastrados pela área toda, essa busca será realizada através de uma Área Serviço ***("IDAreaServico")***.
+```sh
+let objeto = await api.get('/corretivo/getcountcorretivobyas', {params: {IDAreaServico: variável declarada }});
+```
+
+> #### Retorna a quantidade de corretivos cadastrados pela área toda referente ao perfil, busca realizada através de uma Área Serviço ***("IDAreaServico")***.
+```sh
+let objeto = await api.get('/corretivo/getcountcorretivobyas', {params: {IDAreaServico: variável declarada }});
+```
+
+> #### Retorna a média do corretivo através  ***("objID", "opcao", "type")***.
+```sh
+let objeto = await api.get('/corretivo/getmediacorretivo', {params: {objID: variável declarada, opcao: variável declarada, type: "PERFIL" }});
+```
+**OBS:** O Type ele deve ser definido em dois tipos **"PERFIL"** ou **"GRID"**.
+
+### PUT CORRETIVO.
+
+> #### Marca a opção válida.
+```sh
+api.put("/corretivo/putopcaogridmarcar", objeto).then(response => {
+  // Condição... 
+})
+```
+**OBS:** Necessário passar um objeto completo como parâmetro.
+
+
+
+
+
+
 ### GET PERMISSION SINC. 
 > #### Retorna um valor boolean, caso o usuário não tenha permissão o valor retorna verdadeiro. 
 ```sh
